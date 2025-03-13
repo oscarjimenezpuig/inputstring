@@ -18,12 +18,3 @@ char* input(unsigned int l,char* s) {
 	*ptr='\0';
 	return s;
 }
-
-int main() {
-	char str[10];
-	printf("%s\n",input(9,str));
-	return 0;
-}
-
-
-
